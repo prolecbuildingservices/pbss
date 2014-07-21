@@ -4,18 +4,13 @@
 	text-align: center;
 	list-style: none;
 	font-weight: bold;
-	font-size: 1.4em;
 }
 
 .usp .title {
 	font-style: italic;
-	font-size:1.5em;
 }
 
 .usp a {
 	margin-top:10px;
 }
 
-.usp li {
-	background-image: url("img/tick_32.png");
-}
