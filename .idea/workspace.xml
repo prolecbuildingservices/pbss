@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1fe4ad0-740e-43cb-847b-de6aeabd78ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.abide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.accordion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.clearing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.equalizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.interchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.joyride.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.magellan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/foundation.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.offcanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.orbit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.reveal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.topbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/orbit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/placeholder.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pbss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,10 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="34" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.63432837" vertical-offset="510" max-vertical-offset="1802">
+            <state line="44" column="13" selection-start="1673" selection-end="1673" vertical-scroll-proportion="-18.961538" vertical-offset="255" max-vertical-offset="2159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="30" selection-start="872" selection-end="872" vertical-scroll-proportion="0.42288557" vertical-offset="0" max-vertical-offset="2159">
               <folding />
             </state>
           </provider>
@@ -92,6 +72,7 @@
       <list>
         <option value="$PROJECT_DIR$/orbit.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
       </list>
     </option>
   </component>
@@ -275,7 +256,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="34" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.63432837" vertical-offset="510" max-vertical-offset="1802">
+        <state line="44" column="13" selection-start="1673" selection-end="1673" vertical-scroll-proportion="-18.961538" vertical-offset="255" max-vertical-offset="2159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="872" selection-end="872" vertical-scroll-proportion="0.42288557" vertical-offset="0" max-vertical-offset="2159">
           <folding />
         </state>
       </provider>
