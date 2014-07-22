@@ -9,68 +9,33 @@
     <link rel="stylesheet" href="css/styles.css"/>
     <script src="js/vendor/modernizr.js"></script>
 </head>
-<body>
+<body ng-app="Prolec" ng-controller="MainCtrl">
 
 <nav class="top-bar" data-topbar>
     <ul class="title-area">
         <li class="name">
-            <h1><a href="index.html">Prolec Building Services</a></h1>
+            <h1><a href="#/">Prolec Building Services</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
     </ul>
     <section class="top-bar-section">
         <ul class="right">
             <li class="divider"></li>
-            <li><a href="services.html">Our Services</a></li>
+            <li ng-class="{'active' : routeName == 'services'}"><a href="#/services">Our Services</a></li>
             <li class="divider"></li>
-            <li><a href="team.html">Our Team</a></li>
+            <li ng-class="{'active' : routeName == 'team'}"><a href="#/team">Our Team</a></li>
             <li class="divider"></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
+            <li ng-class="{'active' : routeName == 'testimonials'}"><a href="#/testimonials">Testimonials</a></li>
             <li class="divider"></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li ng-class="{'active' : routeName == 'contact'}"><a href="#/contact">Contact Us</a></li>
         </ul>
     </section>
 </nav>
 <br/>
-<div class="row">
-    <div class="large-12 columns">
-        <div class="panel">
-            <ul class="usp">
-                <li class="title"><h2>Why people choose Prolec</h2></li>
-                <li><h4><img src="img/tick_32.png"/>Comprehensive insurance</h4></li>
-                <li><h4><img src="img/tick_32.png"/>Honest, personal service</h4></li>
-                <li><h4><img src="img/tick_32.png"/>Competitive, transparent prices</h4></li>
-                <li><h4><img src="img/tick_32.png"/>And another great reason too</h4></li>
-                <li>
-                    <a class="button" href="contact.html">Get a quote!</a>
-                </li>
-                <li>
-                    <h5>Call us on <a href="tel:07799622113">07799 622 113</a></h5>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
 
-<div class="row">
-    <div class="large-4 columns">
-        <img src="img/one.jpg" style="width:100%"/>
-        <h4>Our Services</h4>
-        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-    </div>
-    <div class="large-4 columns">
-        <img src="img/two.jpg" style="width:100%"/>
-        <h4>Testimonials</h4>
-        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-    </div>
-    <div class="large-4 columns">
-        <img src="img/three.jpg" style="width:100%"/>
-        <h4>Our Team</h4>
-        <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
-    </div>
-</div>
+<div ng-view></div>
 
-<div class="row">
+<div ng-show="routeName !== 'contact'" class="row">
     <div class="large-12 columns">
         <div class="panel">
             <h4>Get in touch!</h4>
@@ -79,7 +44,7 @@
                    <p>If you are in interested in any of <a href="services.html">Our Services</a> then either call us on <a href="tel:07799622113">07799 622 113</a> or send us a message and we will get right back to you.</p>
                 </div>
                 <div class="large-3 columns">
-                    <a href="contact.html" class="radius button right">Contact Us</a>
+                    <a href="#/contact" class="radius button right">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -87,7 +52,10 @@
 </div>
 
 <script src="js/vendor/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular-route.min.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="js/app.js"></script>
 <script>
     $(document).foundation();
     var doc = document.documentElement;
