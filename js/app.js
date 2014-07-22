@@ -9,7 +9,7 @@ prolec.config(['$routeProvider', '$locationProvider', function($routeProvider, $
         name : 'contact',
         controller : ['$scope', '$window', function($scope, $window){
     		$scope.sendEmail = function(){
-    			window.location.href = "mailto:pbssurrey@gmail.com?subject=Contact%20from%20website&body="+$scope.contact.message;
+    			window.location.href = "mailto:pbssurrey@gmail.com?subject=Contact%20from%20website&body="+$scope.contact.message+'\n\n'+$scope.contact.name+'\n\n'+$scope.contact.email;
     		};
         }]
   	}).when('/services', {
