@@ -6,7 +6,12 @@ prolec.config(['$routeProvider', '$locationProvider', function($routeProvider, $
         name : 'main'
   	}).when('/contact', {
         templateUrl: 'contact.html',
-        name : 'contact'
+        name : 'contact',
+        controller : ['$scope', '$window', function($scope, $window){
+    		$scope.sendEmail = function(){
+    			window.location.href = "mailto:pbssurrey@gmail.com?subject=Contact%20from%20website&body="+$scope.contact.message;
+    		};
+        }]
   	}).when('/services', {
         templateUrl: 'services.html',
         name : 'services'
@@ -19,10 +24,6 @@ prolec.config(['$routeProvider', '$locationProvider', function($routeProvider, $
   	}).otherwise({
         redirectTo: '/'
   	});
-
-
-
-  	//$locationProvider.html5Mode(true);
 }]);
 
 prolec.controller('MainCtrl', function ($scope) {
