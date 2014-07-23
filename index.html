@@ -21,6 +21,8 @@
     <section class="top-bar-section">
         <ul class="right">
             <li class="divider"></li>
+            <li ng-class="{'active' : routeName == 'main'}"><a href="#/">Home</a></li>
+            <li class="divider"></li>
             <li ng-class="{'active' : routeName == 'services'}"><a href="#/services">Our Services</a></li>
             <li class="divider"></li>
             <li ng-class="{'active' : routeName == 'team'}"><a href="#/team">Our Team</a></li>
@@ -41,7 +43,7 @@
             <h4>Get in touch!</h4>
             <div class="row">
                 <div class="large-9 columns">
-                   <p>If you are in interested in any of <a href="services.html">Our Services</a> then either call us on <a href="tel:07799622113">07799 622 113</a> or send us a message and we will get right back to you.</p>
+                   <p>If you are in interested in any of <a href="#/services">Our Services</a> then either call us on <a href="tel:07799622113">07799 622 113</a> or send us a message and we will get right back to you.</p>
                 </div>
                 <div class="large-3 columns">
                     <a href="#/contact" class="radius button right">Contact Us</a>

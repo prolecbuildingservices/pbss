@@ -6,12 +6,7 @@ prolec.config(['$routeProvider', '$locationProvider', function($routeProvider, $
         name : 'main'
   	}).when('/contact', {
         templateUrl: 'contact.html',
-        name : 'contact',
-        controller : ['$scope', '$window', function($scope, $window){
-    		$scope.sendEmail = function(){
-    			window.location.href = "mailto:pbssurrey@gmail.com?subject=Contact%20from%20website&body="+$scope.contact.message+'\n\n'+$scope.contact.name+'\n\n'+$scope.contact.email;
-    		};
-        }]
+        name : 'contact'
   	}).when('/services', {
         templateUrl: 'services.html',
         name : 'services'
