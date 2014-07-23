@@ -25,5 +25,6 @@ prolec.controller('MainCtrl', function ($scope) {
 
 	$scope.$on('$routeChangeStart', function(ev, next, current) { 
  		$scope.routeName = next.name;
+        scrollTo(0,0);
  	});
 });

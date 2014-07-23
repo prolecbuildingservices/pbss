@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c1fe4ad0-740e-43cb-847b-de6aeabd78ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pbss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="6" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.62211984" vertical-offset="0" max-vertical-offset="868">
+            <state line="36" column="6" selection-start="2072" selection-end="2072" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -64,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="27" column="22" selection-start="822" selection-end="822" vertical-scroll-proportion="0.44751382" vertical-offset="0" max-vertical-offset="905">
               <folding />
             </state>
           </provider>
@@ -102,8 +99,8 @@
       <list>
         <option value="$PROJECT_DIR$/orbit.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -324,13 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="1628" selection-end="1628" vertical-scroll-proportion="-14.916667" vertical-offset="182" max-vertical-offset="1080">
@@ -347,7 +337,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.62211984" vertical-offset="0" max-vertical-offset="868">
+        <state line="36" column="6" selection-start="2072" selection-end="2072" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="22" selection-start="822" selection-end="822" vertical-scroll-proportion="0.44751382" vertical-offset="0" max-vertical-offset="905">
           <folding />
         </state>
       </provider>
