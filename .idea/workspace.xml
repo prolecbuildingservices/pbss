@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c1fe4ad0-740e-43cb-847b-de6aeabd78ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="pbss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="10" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.4305211" vertical-offset="537" max-vertical-offset="1343">
+            <state line="63" column="36" selection-start="2758" selection-end="2758" vertical-scroll-proportion="-20.538462" vertical-offset="537" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -62,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="7" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+            <state line="29" column="53" selection-start="874" selection-end="874" vertical-scroll-proportion="0.58343196" vertical-offset="0" max-vertical-offset="845">
               <folding />
             </state>
           </provider>
@@ -379,16 +378,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="63" column="36" selection-start="2758" selection-end="2758" vertical-scroll-proportion="-20.538462" vertical-offset="537" max-vertical-offset="1343">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="10" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.4305211" vertical-offset="537" max-vertical-offset="1343">
+        <state line="29" column="53" selection-start="874" selection-end="874" vertical-scroll-proportion="0.58343196" vertical-offset="0" max-vertical-offset="845">
           <folding />
         </state>
       </provider>
