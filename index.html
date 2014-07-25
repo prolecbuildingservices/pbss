@@ -21,23 +21,22 @@
     <section class="top-bar-section">
         <ul class="right">
             <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'main'}"><a href="#/">Home</a></li>
+            <li ng-class="{'active' : routeName == 'main'}"><a scroll-to="nav:first" href="">Home</a></li>
             <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'services'}"><a href="#/services">Our Services</a></li>
+            <li ng-class="{'active' : routeName == 'services'}"><a scroll-to=".services-panel" href="">Our Services</a></li>
             <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'team'}"><a href="#/team">Our Team</a></li>
+            <li ng-class="{'active' : routeName == 'team'}"><a scroll-to=".team-panel" href="">Our Team</a></li>
             <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'testimonials'}"><a href="#/testimonials">Testimonials</a></li>
+            <li ng-class="{'active' : routeName == 'testimonials'}"><a scroll-to=".testimonials-panel" href="">Testimonials</a></li>
             <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'contact'}"><a href="#/contact">Contact Us</a></li>
+            <li ng-class="{'active' : routeName == 'contact'}"><a scroll-to=".contact-panel" href="">Contact Us</a></li>
         </ul>
     </section>
 </nav>
-<br/>
 
 <div ng-view></div>
 
-<div ng-show="routeName !== 'contact'" class="row">
+<!--<div ng-show="routeName !== 'contact'" class="row">
     <div class="large-12 columns">
         <div class="panel">
             <h4>Get in touch!</h4>
@@ -51,7 +50,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 
 <script src="js/vendor/jquery.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>

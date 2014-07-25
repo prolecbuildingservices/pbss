@@ -31,4 +31,22 @@ prolec.controller('MainCtrl', function ($scope, $location) {
  		$scope.routeName = next.name;
         scrollTo(0,0);
  	});
+
+    $scope.initOrbit = function(){
+        $(document).foundation();
+    }
+});
+
+prolec.directive('scrollTo', function(){
+    return {
+        restrict : 'A',
+        link : function(scope, el, attr) {
+            var id = attr.scrollTo;
+            el.on('click', function(){
+                if(id){
+                    $("body").animate({scrollTop: $(id).offset().top}, "slow");
+                }
+            });
+        }
+    }
 });

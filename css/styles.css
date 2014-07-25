@@ -1,3 +1,9 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .usp {
 	padding:0;
 	margin:0;
@@ -14,3 +20,14 @@
 	margin-top:10px;
 }
 
+.usp img {
+    margin-right:1.1rem;
+}
+
+.service {
+    background-color: #fff;
+}
+
+.contact-panel {
+    margin-bottom: 0;
+}

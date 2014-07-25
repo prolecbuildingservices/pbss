@@ -1,6 +1,6 @@
-<div class="row">
-    <div class="large-12 columns">
-        <div class="panel">
+<div class="panel">
+    <div class="row">
+        <div class="large-12 columns">
             <ul class="usp">
                 <li class="title"><h2>Why people choose Prolec</h2></li>
                 <li><h4><img src="img/tick_32.png"/>Comprehensive insurance</h4></li>
@@ -8,7 +8,7 @@
                 <li><h4><img src="img/tick_32.png"/>Competitive, transparent prices</h4></li>
                 <li><h4><img src="img/tick_32.png"/>And another great reason too</h4></li>
                 <li>
-                    <a class="button" href="#/contact">Get a quote!</a>
+                    <a class="button" scroll-to=".contact-panel"  href="">Get a quote!</a>
                 </li>
                 <li>
                     <h5>Call us on <a href="tel:07799622113">07799 622 113</a></h5>
@@ -17,6 +17,8 @@
         </div>
     </div>
 </div>
+
+<!--<hr />
 
 <div class="row">
     <div class="large-4 columns">
@@ -34,4 +36,17 @@
         <h4>Our Team</h4>
         <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
     </div>
-</div>
+</div>-->
+
+
+<ng-include src="'team.html'"></ng-include>
+
+
+<ng-include src="'services.html'"></ng-include>
+
+
+<ng-include onload="initOrbit()" src="'testimonials.html'"></ng-include>
+
+
+<ng-include src="'contact.html'"></ng-include>
+
