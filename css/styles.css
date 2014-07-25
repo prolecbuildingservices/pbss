@@ -32,6 +32,10 @@
     margin-bottom: 0;
 }
 
+.powder {
+    background-color: #F0F4F5;
+}
+
 @media only screen
 and (max-width : 400px) {
     .usp img {
