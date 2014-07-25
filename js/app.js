@@ -21,7 +21,11 @@ prolec.config(['$routeProvider', '$locationProvider', function($routeProvider, $
   	});
 }]);
 
-prolec.controller('MainCtrl', function ($scope) {
+prolec.controller('MainCtrl', function ($scope, $location) {
+
+    $rootScope.$on('$routeChangeSuccess', function () {
+        ga('send', 'pageview', $location.url());
+    });
 
 	$scope.$on('$routeChangeStart', function(ev, next, current) { 
  		$scope.routeName = next.name;
