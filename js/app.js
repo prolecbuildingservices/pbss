@@ -44,7 +44,7 @@ prolec.directive('scrollTo', function(){
             var id = attr.scrollTo;
             el.on('click', function(){
                 if(id){
-                    $("body").animate({scrollTop: $(id).offset().top}, "slow");
+                    $("body").animate({scrollTop: $(id).offset().top - 40}, "200");
                 }
             });
         }

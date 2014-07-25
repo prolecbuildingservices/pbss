@@ -11,28 +11,30 @@
 </head>
 <body ng-app="Prolec" ng-controller="MainCtrl">
 
-<nav class="top-bar" data-topbar>
-    <ul class="title-area">
-        <li class="name">
-            <h1><a href="#/">Prolec Building Services</a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-    </ul>
-    <section class="top-bar-section">
-        <ul class="right">
-            <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'main'}"><a scroll-to="nav:first" href="">Home</a></li>
-            <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'services'}"><a scroll-to=".services-panel" href="">Our Services</a></li>
-            <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'team'}"><a scroll-to=".team-panel" href="">Our Team</a></li>
-            <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'testimonials'}"><a scroll-to=".testimonials-panel" href="">Testimonials</a></li>
-            <li class="divider"></li>
-            <li ng-class="{'active' : routeName == 'contact'}"><a scroll-to=".contact-panel" href="">Contact Us</a></li>
+<div class="sticky">
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1><a scroll-to="body" href="">Prolec Building Services</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
         </ul>
-    </section>
-</nav>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="divider"></li>
+                <li ng-class="{'active' : routeName == 'main'}"><a scroll-to="body" href="">Home</a></li>
+                <li class="divider"></li>
+                <li ng-class="{'active' : routeName == 'team'}"><a scroll-to=".team-panel" href="">Our Team</a></li>
+                <li class="divider"></li>
+                <li ng-class="{'active' : routeName == 'services'}"><a scroll-to=".services-panel" href="">Our Services</a></li>
+                <li class="divider"></li>
+                <li ng-class="{'active' : routeName == 'testimonials'}"><a scroll-to=".testimonials-panel" href="">Testimonials</a></li>
+                <li class="divider"></li>
+                <li ng-class="{'active' : routeName == 'contact'}"><a scroll-to=".contact-panel" href="">Contact Us</a></li>
+            </ul>
+        </section>
+    </nav>
+</div>
 
 <div ng-view></div>
 
