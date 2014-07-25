@@ -38,13 +38,17 @@ prolec.controller('MainCtrl', function ($scope, $location) {
 });
 
 prolec.directive('scrollTo', function(){
+    var nav = $('nav');
     return {
         restrict : 'A',
         link : function(scope, el, attr) {
             var id = attr.scrollTo;
             el.on('click', function(){
                 if(id){
+                    nav.removeClass('expanded');
                     $("body").animate({scrollTop: $(id).offset().top - 40}, "200");
+                    $('.top-bar-section li').removeClass('active');
+                    el.parents('li:first').addClass('active');
                 }
             });
         }

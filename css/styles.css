@@ -31,3 +31,11 @@
 .contact-panel {
     margin-bottom: 0;
 }
+
+@media only screen
+and (max-width : 400px) {
+    .usp img {
+        margin:0;
+        display: none;
+    }
+}
