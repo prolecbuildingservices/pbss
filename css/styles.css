@@ -44,6 +44,10 @@
     position : relative;
 }
 
+iframe {
+    border:solid 1px #d8d8d8;
+}
+
 .carousel-caption {
     position:absolute;
     bottom:0;
