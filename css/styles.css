@@ -48,15 +48,27 @@ iframe {
     border:solid 1px #d8d8d8;
 }
 
-.carousel-caption {
+.overlay {
     position:absolute;
-    bottom:0;
     font-style: italic;
     background-color: rgba(0,0,0,0.4);
     padding: 10px;
     text-shadow: 0 1px 1px rgba(0,0,0,0.8);
     color:#fff;
+}
+
+.carousel-caption {
+    bottom:0;
     width:100%;
+}
+
+.team-col {
+    position:relative;
+}
+
+.team-col h4 {
+    top:0;
+    margin:0;
 }
 
 @media only screen
