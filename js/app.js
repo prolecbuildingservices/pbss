@@ -35,7 +35,7 @@ prolec.controller('MainCtrl', function ($scope, $location) {
     $scope.initOrbit = function(){
         $('.carousel').slick({
             arrows : false,
-            autoplay : true,
+            autoplay : false,
             dots : true,
             slidesToShow : 2,
             slidesToScroll : 2,
