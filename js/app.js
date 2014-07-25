@@ -33,7 +33,20 @@ prolec.controller('MainCtrl', function ($scope, $location) {
  	});
 
     $scope.initOrbit = function(){
-        $(document).foundation();
+        $('.carousel').slick({
+            arrows : false,
+            autoplay : true,
+            dots : true,
+            slidesToShow : 2,
+            slidesToScroll : 2,
+            responsive: [{
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }]
+        });
     }
 });
 
