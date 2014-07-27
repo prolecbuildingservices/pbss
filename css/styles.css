@@ -64,6 +64,7 @@ iframe {
     padding: 20px;
     text-shadow: 0 1px 1px rgba(0,0,0,0.8);
     color:#fff;
+    height:120px;
 }
 
 .carousel-caption {
@@ -85,5 +86,8 @@ and (max-width : 400px) {
     .usp img {
         margin:0;
         display: none;
+    }
+    .quote {
+        height : 150px;
     }
 }

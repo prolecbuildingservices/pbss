@@ -75,7 +75,6 @@ prolec.directive('scrollTo', function(){
        '"A great many people think they are thinking when they are merely rearranging their prejudices." -- William James',
        '"All the people are so happy now, their heads are caving in. I\'m glad they are a snowman with protective rubber skin" -- They Might Be Giants',
        '"There is no distinctly American criminal class except Congress." -- Mark Twain',
-       '"...one of the main causes of the fall of the Roman Empire was that, lacking zero, they had no way to indicate successful termination of their C programs." -- Robert Firth',
        '"Most of us, when all is said and done, like what we like and make up reasons for it afterwards." -- Soren F. Petersen',
        '"The whole problem with the world is that fools and fanatics are always so certain of themselves, but wiser people so full of doubts." -- Bertrand Russell'
        ];
