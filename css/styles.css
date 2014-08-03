@@ -81,6 +81,13 @@ iframe {
     margin:0;
 }
 
+footer {
+    font-family: courier;
+    text-align: center;
+    padding:10px;
+    font-size: .6em;
+}
+
 @media only screen
 and (max-width : 400px) {
     .usp img {
