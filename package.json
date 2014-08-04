@@ -1,0 +1,13 @@
+{
+  "name": "pbss",
+  "version": "0.0.0",
+  "description": "Prolec Building Services Surrey",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-uglify": "~0.5.1",
+    "grunt-contrib-watch": "~0.5.2"
+  }
+}
