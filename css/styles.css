@@ -1,3 +1,9 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .usp {
 	padding:0;
 	margin:0;
@@ -14,3 +20,81 @@
 	margin-top:10px;
 }
 
+.usp img {
+    margin-right:1.1rem;
+}
+
+.service {
+    background-color: #fff;
+}
+
+.contact-panel {
+    margin-bottom: 0;
+}
+
+.powder {
+    background-color: #F0F4F5;
+}
+
+.carousel img {
+    /*padding:10px;*/
+}
+
+.carousel>div{
+    position : relative;
+}
+
+iframe {
+    border:solid 1px #d8d8d8;
+}
+
+.overlay {
+    position:absolute;
+    font-style: italic;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+    color:#fff;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2em;
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+    color:#fff;
+    height:120px;
+}
+
+.carousel-caption {
+    bottom:0;
+    width:100%;
+}
+
+.team-col {
+    position:relative;
+}
+
+.team-col h4 {
+    top:0;
+    margin:0;
+}
+
+footer {
+    font-family: courier;
+    text-align: center;
+    padding:10px;
+    font-size: .6em;
+}
+
+@media only screen
+and (max-width : 400px) {
+    .usp img {
+        margin:0;
+        display: none;
+    }
+    .quote {
+        height : 150px;
+    }
+}
