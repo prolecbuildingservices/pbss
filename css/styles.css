@@ -65,6 +65,13 @@ iframe {
     text-shadow: 0 1px 1px rgba(0,0,0,0.8);
     color:#fff;
     height:120px;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.quote-inner {
+    display: inline-block;
 }
 
 .carousel-caption {
